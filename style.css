@@ -1,0 +1,25 @@
+* {
+    box-sizing: border-box;
+	
+}
+body {
+	background-image: url(images/fond.jpg);	
+	background-repeat: repeat;
+	border: 1px solid red;
+}
+
+.logo{
+	max-width: 8%;
+	vertical-align: top;
+	display: inline-table;
+	border: 1px solid red;
+}
+
+
+
+h1{
+	
+	border: 1px solid red;
+	
+	
+}
