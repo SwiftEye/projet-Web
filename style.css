@@ -4,22 +4,80 @@
 }
 body {
 	background-image: url(images/fond.jpg);	
-	background-repeat: repeat;
 	border: 1px solid red;
+	background-size: 500%;
 }
 
 .logo{
-	max-width: 8%;
-	vertical-align: top;
-	display: inline-table;
-	border: 1px solid red;
+	max-width: 55%;
+	margin-left: 18%;
+	margin-top: 5%;
+	
 }
 
+#logo{
+	display: inline-table;
+	max-width: 13%;
+	
+}
 
 
 h1{
-	
-	border: 1px solid red;
-	
+	color: white;
+	font-size: 135%;
+	max-width: 75%;
+	max-height:0%;
+	text-align: center;
+	margin-left: 10%;
+}
+
+#searchbar
+{
+	display: inline-block;
+	letter-spacing: -0.31em;
+	margin-left: 10%;
+	padding-top: 1%;
+	width:55%;
+}
+
+
+#searchbar [type="search"]
+{
+	border-top-left-radius: 0.5em;
+	border-bottom-left-radius: 0.5em;
+	padding-top: 3%;
+	width: 85%;
+
+}
+
+#searchbar [type="submit"]
+{
+	border: 0.5px;
+	border-top-right-radius: 0.5em;
+	border-bottom-right-radius: 0.5em;
+	background: url(images/loupe.png);
+	background-color: white;
+	background-repeat: no-repeat;
+	background-size: contain;
+	background-position: center;
+	width: 10%;
+	padding-top: 3%;
 	
 }
+	
+
+.barre
+{
+	width: 75%;
+	border: 1px;
+}
+
+::-webkit-input-placeholder {
+   text-align: center;
+}
+
+body section
+{
+	background: url(images/fond-barre.png);
+}
+
