@@ -18,6 +18,8 @@ body {
 #logo{
 	display: inline-table;
 	max-width: 13%;
+	border: 1px solid red;
+
 	
 }
 
@@ -26,18 +28,22 @@ h1{
 	color: white;
 	font-size: 135%;
 	max-width: 75%;
-	max-height:0%;
 	text-align: center;
 	margin-left: 10%;
+	border: 1px solid red;
+	
+
 }
 
 #searchbar
 {
-	display: inline-block;
+	display: inline-table;
 	letter-spacing: -0.31em;
-	margin-left: 10%;
+	margin-left: 5%;
 	padding-top: 1%;
 	width:55%;
+	border: 1px solid red;
+
 }
 
 
@@ -64,20 +70,32 @@ h1{
 	padding-top: 3%;
 	
 }
+
+#client
+{
+	border: 1px solid red;
+	display: inline-table;
+	max-width: 15%;
+}
+.client
+{
+	display: inline-table;
+	max-width: 25%;
+	margin-left: 15%;
 	
+}
 
 .barre
 {
-	width: 75%;
+	width: 65%;
 	border: 1px;
 }
 
-::-webkit-input-placeholder {
-   text-align: center;
-}
+
 
 body section
 {
 	background: url(images/fond-barre.png);
+	max-width: 100%;
 }
 
