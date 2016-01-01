@@ -23,12 +23,11 @@ body {
 
 #searchbar
 {
-	display: inline-block;
+	display: inline-table;
 	letter-spacing: -0.31em;
 	margin-left: 15%;
 	margin-top: 4%;
 	width:35%;
-
 }
 
 
@@ -37,8 +36,8 @@ body {
 	border-top-left-radius: 0.5em;
 	border-bottom-left-radius: 0.5em;
 	padding-top: 3%;
-	width: 79%;
-
+	width: 90%;
+	
 }
 
 #searchbar [type="submit"]
@@ -68,7 +67,6 @@ body {
 	display: inline-table;
 	max-width: 22%;
 	margin-left: 15%;
-	
 }
 
 .barre
@@ -76,7 +74,6 @@ body {
 	width: 65%;
 	border: 1px;
 }
-
 
 
 #header
@@ -212,14 +209,13 @@ body {
   background: #000000;
 }
 #cssmenu.small-screen {
-  width: 70%;
-
+  width: 100%;
+  margin: 0;
 }
 #cssmenu.small-screen > ul,
 #cssmenu.small-screen.align-center > ul {
   width: 100%;
   text-align: left;
-
 }
 #cssmenu.small-screen > ul > li,
 #cssmenu.small-screen.align-center {
@@ -279,4 +275,36 @@ body {
 }
 #cssmenu.small-screen #menu-button.menu-opened:before {
   background: #dff2fa;
+}
+
+#header.small-screen
+{
+	margin: 0;
+	
+}
+
+#header.small-screen > #logo
+{
+	margin-top: 3%;
+	margin-left: 2%;
+	max-width: 10%;
+	
+}
+
+#header.small-screen > #searchbar
+{
+	padding: 0;
+	margin-left: 2%;
+	width: 70%;
+}
+
+#header.small-screen > #client
+{
+	margin-left: 0%;
+	max-width: 20%;
+}
+
+#header.small-screen > #client > a~a
+{
+	margin-left: 3%;
 }
