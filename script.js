@@ -71,6 +71,8 @@
             cssmenu.find('ul').show();
             cssmenu.removeClass('small-screen');
 			$("#header").removeClass('small-screen');
+			$("#miseenavant").removeClass('small-screen');
+			$("#contenu").removeClass('small-screen');
             if (settings.format === 'select') {
               cssmenu.find('select').hide();
             }
@@ -83,6 +85,8 @@
             cssmenu.find('ul').hide().removeClass('open');
             cssmenu.addClass('small-screen');
 			$("#header").addClass('small-screen');
+			$("#miseenavant").addClass('small-screen');
+			$("#contenu").addClass('small-screen');
             if (settings.format === 'select') {
               cssmenu.find('select').show();
             }

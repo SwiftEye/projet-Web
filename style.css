@@ -3,8 +3,9 @@
 	
 }
 body {
-	background-image: url(images/fond.jpg);	
-	background-size: 500%;
+	background-color: #4B4B4B;	
+	background-size: auto;
+	
 }
 
 .logo{
@@ -168,7 +169,7 @@ body {
 }
 
 #cssmenu > ul > li.active > a {
-  background: #650000;
+  background: #cc0013;
   color: #ffffff;
 }
 #cssmenu > ul > li:hover > a,
@@ -307,4 +308,64 @@ body {
 #header.small-screen > #client > a~a
 {
 	margin-left: 3%;
+}
+
+#miseenavant img
+{
+	width: 70%;
+    margin-left: 15%;
+    margin-top: 0.5%;
+    border-radius: 13px
+	
+}
+
+#miseenavant.small-screen img
+{
+	width: 100%;
+	margin: 0;
+	border-radius: 0;    
+}
+
+#contenu
+{
+	margin-top: 0.5%;
+	border: #373737 solid;
+	background-color: #373737;
+	margin-left: 15%;
+	padding-bottom: 1%;
+	width: 70%;
+	border-radius: 13px;
+	display: inline-table;
+	
+}
+
+#contenu > img
+{
+	border-radius: 13px;
+	margin-left: 4%;
+	margin-top: 2%;
+	width: 30%;
+}
+
+#contenu > img ~ img 
+{
+    margin-left: 1%;
+}
+
+#contenu > img:nth-child(2n+4)
+{
+	margin-left: 4%;
+}
+
+
+#contenu > img:hover
+{
+	border: 3px solid #cc0013;
+}
+
+#contenu.small-screen
+{
+	margin: 0;
+	border-radius: 0;
+	width: 100%;
 }
