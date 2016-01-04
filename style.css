@@ -329,7 +329,7 @@ input.barre
 #header.small-screen #client
 {
 	width: 30%;
-  margin-left: 0%;
+  margin-left: -9%;
 
 }
 
@@ -402,4 +402,23 @@ input.barre
 	margin: 0;
 	border-radius: 0;
 	width: 100%;
+}
+
+#searchbar.small-screen input
+{
+  margin-top: 10%;
+  
+}
+
+p
+{
+	font-family: Raleway, sans-serif;
+	color: white;
+	margin-left: 5%;
+	margin-right: 5%;
+}
+
+p:first-of-type
+{
+	margin-top: 3%;
 }

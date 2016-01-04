@@ -73,6 +73,7 @@
 			$("#header").removeClass('small-screen');
 			$("#miseenavant").removeClass('small-screen');
 			$("#contenu").removeClass('small-screen');
+			$("#searchbar").removeClass('small-screen');
             if (settings.format === 'select') {
               cssmenu.find('select').hide();
             }
@@ -87,6 +88,7 @@
 			$("#header").addClass('small-screen');
 			$("#miseenavant").addClass('small-screen');
 			$("#contenu").addClass('small-screen');
+			$("#searchbar").addClass('small-screen');
             if (settings.format === 'select') {
               cssmenu.find('select').show();
             }
