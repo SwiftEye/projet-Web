@@ -74,6 +74,8 @@
 			$("#miseenavant").removeClass('small-screen');
 			$("#contenu").removeClass('small-screen');
 			$("#searchbar").removeClass('small-screen');
+			$("footer").removeClass('footer-distributed-small-screen');
+			$("footer").addClass('footer-distributed');
             if (settings.format === 'select') {
               cssmenu.find('select').hide();
             }
@@ -89,6 +91,8 @@
 			$("#miseenavant").addClass('small-screen');
 			$("#contenu").addClass('small-screen');
 			$("#searchbar").addClass('small-screen');
+			$("footer").removeClass('footer-distributed');
+			$("footer").addClass('footer-distributed-small-screen');
             if (settings.format === 'select') {
               cssmenu.find('select').show();
             }
