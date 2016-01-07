@@ -11,7 +11,7 @@
   </head>
   <body>
 <section>
-	<div id="header">
+	<div id="header" class="rien">
 		
 		<div id="logo">
 			<a href="index.html"><img src="images/logo.png" class="logo" alt="gaming shop"></a>
@@ -34,17 +34,28 @@
 		<ul>
 		   <li><a href='index.html'>Accueil</a></li>
 		   <li><a href='claviers.html'>Claviers</a></li>
-		   <li  class='active'><a href='souris.html'>Souris</a></li>
+		   <li><a href='souris.html'>Souris</a></li>
 		   <li><a href='casques.html'>Casques</a></li>
 		   <li><a href='whoarewe.html'>Qui Sommes Nous</a></li>
 		</ul>
 	</div>
 	
 	<div id="contenu">
-		<img src="images/produits/fk1.jpg" onmouseover="this.src='images/produits/fk1-hover.jpg'" onmouseout="this.src='images/produits/fk1.jpg'">
-		<img src="images/produits/rival.png" onmouseover="this.src='images/produits/rival-hover.png'" onmouseout="this.src='images/produits/rival.png'">
-		<img src="images/produits/razer-deathadder.jpg" onmouseover="this.src='images/produits/razer-deathadder-hover.jpg'" onmouseout="this.src='images/produits/razer-deathadder.jpg'">
-		<img src="images/produits/havoc.jpg" onmouseover="this.src='images/produits/havoc-hover.jpg'" onmouseout="this.src='images/produits/havoc.jpg'">
+	<form method="post" action="connecté.html" class="login">
+    <p>
+      <label for="login">e-mail :</label>
+      <input type="email" name="login" id="login" placeholder="nom@exemple.fr">
+    </p>
+
+    <p>
+      <label for="password">mot de passe :</label>
+      <input type="password" name="password" id="password" placeholder="&#149;&#149;&#149;&#149;&#149;&#149;&#149;";>
+    </p>
+
+    <p class="login-submit">
+      <button type="submit" class="login-button">Envoyer</button>
+    </p>
+		
 	</div>
 	
 	<footer class="footer-distributed">

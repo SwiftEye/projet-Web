@@ -70,12 +70,7 @@
           if ($(window).width() > settings.breakpoint) {
             cssmenu.find('ul').show();
             cssmenu.removeClass('small-screen');
-			$("#header").removeClass('small-screen');
-			$("#miseenavant").removeClass('small-screen');
-			$("#contenu").removeClass('small-screen');
-			$("#searchbar").removeClass('small-screen');
-			$("footer").removeClass('footer-distributed-small-screen');
-			$("footer").addClass('footer-distributed');
+
             if (settings.format === 'select') {
               cssmenu.find('select').hide();
             }
@@ -87,13 +82,8 @@
           if ($(window).width() <= settings.breakpoint && !cssmenu.hasClass("small-screen")) {
             cssmenu.find('ul').hide().removeClass('open');
             cssmenu.addClass('small-screen');
-			$("#header").addClass('small-screen');
-			$("#miseenavant").addClass('small-screen');
-			$("#contenu").addClass('small-screen');
-			$("#searchbar").addClass('small-screen');
-			$("footer").removeClass('footer-distributed');
-			$("footer").addClass('footer-distributed-small-screen');
-            if (settings.format === 'select') {
+			
+			if (settings.format === 'select') {
               cssmenu.find('select').show();
             }
           }

@@ -11,7 +11,7 @@
   </head>
   <body>
 <section>
-	<div id="header">
+	<div id="header" class="rien">
 		
 		<div id="logo">
 			<a href="index.html"><img src="images/logo.png" class="logo" alt="gaming shop"></a>
@@ -25,7 +25,7 @@
 		</div>
 		
 		<div id="client">
-			<a href="index.html"><img src="images/panier.png" class="client" alt="panier"></a>
+			<a href="panier.html"><img src="images/panier.png" class="client" alt="panier"></a>
 			<a href="login.html"><img src="images/login.png" class="client" alt="login"></a>
 		</div>
 		
@@ -34,17 +34,39 @@
 		<ul>
 		   <li><a href='index.html'>Accueil</a></li>
 		   <li><a href='claviers.html'>Claviers</a></li>
-		   <li  class='active'><a href='souris.html'>Souris</a></li>
+		   <li><a href='souris.html'>Souris</a></li>
 		   <li><a href='casques.html'>Casques</a></li>
 		   <li><a href='whoarewe.html'>Qui Sommes Nous</a></li>
 		</ul>
 	</div>
 	
 	<div id="contenu">
-		<img src="images/produits/fk1.jpg" onmouseover="this.src='images/produits/fk1-hover.jpg'" onmouseout="this.src='images/produits/fk1.jpg'">
-		<img src="images/produits/rival.png" onmouseover="this.src='images/produits/rival-hover.png'" onmouseout="this.src='images/produits/rival.png'">
-		<img src="images/produits/razer-deathadder.jpg" onmouseover="this.src='images/produits/razer-deathadder-hover.jpg'" onmouseout="this.src='images/produits/razer-deathadder.jpg'">
-		<img src="images/produits/havoc.jpg" onmouseover="this.src='images/produits/havoc-hover.jpg'" onmouseout="this.src='images/produits/havoc.jpg'">
+		<form method="post" action="commande.html" class="commander">
+			<p>
+				<label for="text">Nom :</label>
+				<input type="text" name="nom" id="nom" placeholder="Nom">
+			</p>
+			<p>
+				<label for="text">Prenom :</label>
+				<input type="text" name="prenom" id="prenom" placeholder="prenom">
+			</p>
+			<p>
+				<label for="text">Adresse :</label>
+				<input type="text" name="adresse" id="adresse" placeholder="adresse">
+			</p>
+			<p>
+				<label for="text">Code postal :</label>
+				<input type="text" name="cp" id="cp" placeholder="Code postal">
+			</p>
+			<p>
+				<label for="text">Ville :</label>
+				<input type="text" name="Ville" id="Ville" placeholder="Ville">
+			</p>
+			<p>
+				<label for="tel">Télephone :</label>
+				<input type="tel" name="tel" id="tel" placeholder="Téléphone">
+			</p>
+		</form>
 	</div>
 	
 	<footer class="footer-distributed">

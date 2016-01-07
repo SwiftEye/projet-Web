@@ -11,7 +11,7 @@
   </head>
   <body>
 <section>
-	<div id="header">
+	<div id="header" class="rien">
 		
 		<div id="logo">
 			<a href="index.html"><img src="images/logo.png" class="logo" alt="gaming shop"></a>
@@ -34,17 +34,56 @@
 		<ul>
 		   <li><a href='index.html'>Accueil</a></li>
 		   <li><a href='claviers.html'>Claviers</a></li>
-		   <li  class='active'><a href='souris.html'>Souris</a></li>
+		   <li><a href='souris.html'>Souris</a></li>
 		   <li><a href='casques.html'>Casques</a></li>
 		   <li><a href='whoarewe.html'>Qui Sommes Nous</a></li>
 		</ul>
 	</div>
 	
 	<div id="contenu">
-		<img src="images/produits/fk1.jpg" onmouseover="this.src='images/produits/fk1-hover.jpg'" onmouseout="this.src='images/produits/fk1.jpg'">
-		<img src="images/produits/rival.png" onmouseover="this.src='images/produits/rival-hover.png'" onmouseout="this.src='images/produits/rival.png'">
-		<img src="images/produits/razer-deathadder.jpg" onmouseover="this.src='images/produits/razer-deathadder-hover.jpg'" onmouseout="this.src='images/produits/razer-deathadder.jpg'">
-		<img src="images/produits/havoc.jpg" onmouseover="this.src='images/produits/havoc-hover.jpg'" onmouseout="this.src='images/produits/havoc.jpg'">
+		<CENTER><TABLE width=80%>
+		<TR align="center">
+			<Th></Th>
+			<Th>Libellé</TD>
+			<Th>Disponibilité</TD>
+			<Th>Quantité</Th>
+			<Th>Prix TTC</Th>
+		</TR>
+		<TR align="center" width="100%">
+			<TD width="40%" align="right"><img src="images/produits/fk1.jpg"/></TD>
+			<TD>Zowie FK1</TD>
+			<TD>En Stock</TD>
+			<TD>1</TD>
+			<TD>59,95€</TD>
+		</TR>
+		<TR align="center" width="50%">
+			<TD width="40%" align="right"><img src="images/produits/siberia-v2.jpg"/></TD>
+			<TD>Siberia V2</TD>
+			<TD>En Stock</TD>
+			<TD>1</TD>
+			<TD>59,95€</TD>
+		</TR>
+		<TR align="center" width="50%">
+			<TD></TD>
+			<TD></TD>
+			<TD></TD>
+			<TD></TD>
+			<TD></TD>
+		</TR>
+		<TR align="center" width="50%">
+			<TD></TD>
+			<TD></TD>
+			<TD></TD>
+			<TD> TOTAL :</TD>
+			<TD>119,95€</TD>
+		</TR>
+		</TABLE></CENTER> 
+		
+		<form method="post" action="commande.html" class="commander">
+			<button type="submit">Commander</button>
+		</form>
+		
+		
 	</div>
 	
 	<footer class="footer-distributed">
