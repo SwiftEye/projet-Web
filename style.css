@@ -1,3 +1,236 @@
+@import url(http://fonts.googleapis.com/css?family=Raleway);
+
+@keyframes cssload-animBefore {
+	0% {
+		transform: scale(1) translateY(-200%);
+		z-index: 1;
+	}
+	25% {
+		transform: scale(1.3) translateY(0);
+		z-index: 1;
+	}
+	50% {
+		transform: scale(1) translateY(200%);
+		z-index: -1;
+	}
+	75% {
+		transform: scale(0.7) translateY(0);
+		z-index: -1;
+	}
+	100% {
+		transform: scale(1) translateY(-200%);
+		z-index: -1;
+	}
+}
+
+@-o-keyframes cssload-animBefore {
+	0% {
+		-o-transform: scale(1) translateY(-200%);
+		z-index: 1;
+	}
+	25% {
+		-o-transform: scale(1.3) translateY(0);
+		z-index: 1;
+	}
+	50% {
+		-o-transform: scale(1) translateY(200%);
+		z-index: -1;
+	}
+	75% {
+		-o-transform: scale(0.7) translateY(0);
+		z-index: -1;
+	}
+	100% {
+		-o-transform: scale(1) translateY(-200%);
+		z-index: -1;
+	}
+}
+
+@-ms-keyframes cssload-animBefore {
+	0% {
+		-ms-transform: scale(1) translateY(-200%);
+		z-index: 1;
+	}
+	25% {
+		-ms-transform: scale(1.3) translateY(0);
+		z-index: 1;
+	}
+	50% {
+		-ms-transform: scale(1) translateY(200%);
+		z-index: -1;
+	}
+	75% {
+		-ms-transform: scale(0.7) translateY(0);
+		z-index: -1;
+	}
+	100% {
+		-ms-transform: scale(1) translateY(-200%);
+		z-index: -1;
+	}
+}
+
+@-webkit-keyframes cssload-animBefore {
+	0% {
+		-webkit-transform: scale(1) translateY(-200%);
+		z-index: 1;
+	}
+	25% {
+		-webkit-transform: scale(1.3) translateY(0);
+		z-index: 1;
+	}
+	50% {
+		-webkit-transform: scale(1) translateY(200%);
+		z-index: -1;
+	}
+	75% {
+		-webkit-transform: scale(0.7) translateY(0);
+		z-index: -1;
+	}
+	100% {
+		-webkit-transform: scale(1) translateY(-200%);
+		z-index: -1;
+	}
+}
+
+@-moz-keyframes cssload-animBefore {
+	0% {
+		-moz-transform: scale(1) translateY(-200%);
+		z-index: 1;
+	}
+	25% {
+		-moz-transform: scale(1.3) translateY(0);
+		z-index: 1;
+	}
+	50% {
+		-moz-transform: scale(1) translateY(200%);
+		z-index: -1;
+	}
+	75% {
+		-moz-transform: scale(0.7) translateY(0);
+		z-index: -1;
+	}
+	100% {
+		-moz-transform: scale(1) translateY(-200%);
+		z-index: -1;
+	}
+}
+
+@keyframes cssload-animAfter {
+	0% {
+		transform: scale(1) translateY(200%);
+		z-index: -1;
+	}
+	25% {
+		transform: scale(0.7) translateY(0);
+		z-index: -1;
+	}
+	50% {
+		transform: scale(1) translateY(-200%);
+		z-index: 1;
+	}
+	75% {
+		transform: scale(1.3) translateY(0);
+		z-index: 1;
+	}
+	100% {
+		transform: scale(1) translateY(200%);
+		z-index: 1;
+	}
+}
+
+@-o-keyframes cssload-animAfter {
+	0% {
+		-o-transform: scale(1) translateY(200%);
+		z-index: -1;
+	}
+	25% {
+		-o-transform: scale(0.7) translateY(0);
+		z-index: -1;
+	}
+	50% {
+		-o-transform: scale(1) translateY(-200%);
+		z-index: 1;
+	}
+	75% {
+		-o-transform: scale(1.3) translateY(0);
+		z-index: 1;
+	}
+	100% {
+		-o-transform: scale(1) translateY(200%);
+		z-index: 1;
+	}
+}
+
+@-ms-keyframes cssload-animAfter {
+	0% {
+		-ms-transform: scale(1) translateY(200%);
+		z-index: -1;
+	}
+	25% {
+		-ms-transform: scale(0.7) translateY(0);
+		z-index: -1;
+	}
+	50% {
+		-ms-transform: scale(1) translateY(-200%);
+		z-index: 1;
+	}
+	75% {
+		-ms-transform: scale(1.3) translateY(0);
+		z-index: 1;
+	}
+	100% {
+		-ms-transform: scale(1) translateY(200%);
+		z-index: 1;
+	}
+}
+
+@-webkit-keyframes cssload-animAfter {
+	0% {
+		-webkit-transform: scale(1) translateY(200%);
+		z-index: -1;
+	}
+	25% {
+		-webkit-transform: scale(0.7) translateY(0);
+		z-index: -1;
+	}
+	50% {
+		-webkit-transform: scale(1) translateY(-200%);
+		z-index: 1;
+	}
+	75% {
+		-webkit-transform: scale(1.3) translateY(0);
+		z-index: 1;
+	}
+	100% {
+		-webkit-transform: scale(1) translateY(200%);
+		z-index: 1;
+	}
+}
+
+@-moz-keyframes cssload-animAfter {
+	0% {
+		-moz-transform: scale(1) translateY(200%);
+		z-index: -1;
+	}
+	25% {
+		-moz-transform: scale(0.7) translateY(0);
+		z-index: -1;
+	}
+	50% {
+		-moz-transform: scale(1) translateY(-200%);
+		z-index: 1;
+	}
+	75% {
+		-moz-transform: scale(1.3) translateY(0);
+		z-index: 1;
+	}
+	100% {
+		-moz-transform: scale(1) translateY(200%);
+		z-index: 1;
+	}
+}
+
+
 * {
     box-sizing: border-box;
 }
@@ -18,19 +251,25 @@ table {
   font-family: Raleway, sans-serif;
   color: white;
   margin-top: 2%;
-  margin-right: 20%;
+  margin-left: -30%;
+  width: 100%;
+
 }
 
 th {
-  color: #cc0013; 
+  color: #cc0013;
+  text-align: center;
   
 }
 
-table img{
-  width: 30%;
-  display: inline-table;
-  border-radius: 12px;
+table td {
+   text-align: center;
   
+}
+table img{
+  width: 10%;
+  border-radius: 12px;
+  float:right;
 }
 
 button {
@@ -108,9 +347,10 @@ input.barre
   margin-left: 45%;
 }
 
- #contenu.resultat >img ~ p{
+ #contenu.resultat >img ~p , #contenu >img ~ p{
   display: none;
 }
+
 
 
 #client a ~ a
@@ -143,7 +383,7 @@ input.barre
 	border-top-right-radius: 0.5em;
 }
 
-@import url(http://fonts.googleapis.com/css?family=Raleway);
+
 #cssmenu,
 #cssmenu ul,
 #cssmenu ul li,
@@ -235,7 +475,7 @@ input.barre
   transform: rotateX(90deg) translateY(-23px);
   -ms-transform: none;
 }
-#cssmenu > ul > li > a::before {
+#cssmenu > ul > li > a:before {
   position: absolute;
   top: 100%;
   left: 0;
@@ -258,10 +498,10 @@ input.barre
   -webkit-transform-origin: 50% 0;
   -moz-transform-origin: 50% 0;
   transform-origin: 50% 0;
-  -ms-transform: translateY(- -18px);
+  -ms-transform: translateY(-18px);
 }
-#cssmenu > ul > li:hover > a::before,
-#cssmenu > ul > li > a:hover::before {
+#cssmenu > ul > li:hover > a:before,
+#cssmenu > ul > li > a:hover:before {
   background: #000000;
 }
 #cssmenu.small-screen {
@@ -372,7 +612,7 @@ input.barre
     margin-left: 1%;
 }
 
-#contenu > img:nth-child(2n+4)
+#contenu > img:nth-of-type(2n+4)
 {
 	margin-left: 4%;
 }
@@ -398,21 +638,55 @@ p
 	margin-right: 5%;
 }
 
-label,input{
-  line-height: 2;
-  margin-bottom: 2%;
+#contenu form.commander, #contenu form.login {
+  margin-left: 35%;
+  margin-right: 35%;
 }
+
+#contenu>form.commander>p:nth-of-type(7n)
+{
+  margin-top: 15%;
+
+}
+
+form.commander
+{
+  border: 0.01px solid white;
+  border-radius: 13px;
+  display: inline-table;
+  margin-top: 2%;
+}
+
+label~input{
+  margin-bottom: 2%;
+  line-height: 1.6;
+}
+
+.commander>button,.login>p button {
+ width: 25%; 
+ font-size: 70%;
+ margin-bottom: 2%;
+ margin-left: 70%;
+}
+
+button {
+ width: 10%; 
+ font-size: 70%;
+ margin-bottom: 2%;
+ margin-left: 70%;
+}
+
 label
 {
 	display: inline-block;
-	width: 12%;
-	float: left;
-  margin-left: 30%;
+  float: left;
+	width: 60%;
+  font-size: 90%;
 
 }
 
 label~input{
-  width: 20%;
+  width: 60%;
 }
 p:first-of-type
 {
@@ -495,11 +769,53 @@ p:first-of-type
 }
 
 @media screen and (min-width: 200px) and (max-width: 920px) {
+
+.commander>button,.login>p button {
+ width: 25%; 
+ font-size: 70%;
+ margin-bottom: 2%;
+ margin-left: 50%;
+}  
+
   
-table{
+#contenu form.commander, #contenu form.login {
+  margin-left: 18%;
+
+}
+  
+#contenu form {
+  margin-left: 0%;
+  border: none;
+  
+}
+
+.commander,.login {
   width: 100%;
-  margin-left: -16%;
-} 
+  
+}  
+  
+#contenu td
+{
+  width: 0%;
+}
+  
+#contenu table {
+  width: 100%;
+  float: right;
+}
+
+#contenu table img{
+  display: none;
+}
+  
+button {
+  
+  width: 30%;
+  margin-left: 40%;
+  font-size: 80%;
+  
+}
+  
   
 #contenu{
   width: 100%;
@@ -521,7 +837,35 @@ table{
   border: 5px green solid;
 }
 
+#contenu img{
+  display: flex;
+  margin-left: 25%;
+  width: 50%;
+}
 
+ #contenu >img ~ p{
+  display: flex;
+  margin-left: 25%;
+  width: 50%;
+  background-color: green;
+  border: 5px green solid;
+  border-radius: 13px; 
+}
+
+#contenu img ~img
+{
+	margin-left: 25%;
+}
+  
+#contenu > img:nth-of-type(2n+4)
+{
+	margin-left: 25%;
+}
+  
+label,label~input{
+  margin-left: 0%;
+  
+}
 .footer-distributed{
 	background-color:  #373737;
 	box-sizing: border-box;
@@ -973,232 +1317,3 @@ table{
 
 
 
-@keyframes cssload-animBefore {
-	0% {
-		transform: scale(1) translateY(-200%);
-		z-index: 1;
-	}
-	25% {
-		transform: scale(1.3) translateY(0);
-		z-index: 1;
-	}
-	50% {
-		transform: scale(1) translateY(200%);
-		z-index: -1;
-	}
-	75% {
-		transform: scale(0.7) translateY(0);
-		z-index: -1;
-	}
-	100% {
-		transform: scale(1) translateY(-200%);
-		z-index: -1;
-	}
-}
-
-@-o-keyframes cssload-animBefore {
-	0% {
-		-o-transform: scale(1) translateY(-200%);
-		z-index: 1;
-	}
-	25% {
-		-o-transform: scale(1.3) translateY(0);
-		z-index: 1;
-	}
-	50% {
-		-o-transform: scale(1) translateY(200%);
-		z-index: -1;
-	}
-	75% {
-		-o-transform: scale(0.7) translateY(0);
-		z-index: -1;
-	}
-	100% {
-		-o-transform: scale(1) translateY(-200%);
-		z-index: -1;
-	}
-}
-
-@-ms-keyframes cssload-animBefore {
-	0% {
-		-ms-transform: scale(1) translateY(-200%);
-		z-index: 1;
-	}
-	25% {
-		-ms-transform: scale(1.3) translateY(0);
-		z-index: 1;
-	}
-	50% {
-		-ms-transform: scale(1) translateY(200%);
-		z-index: -1;
-	}
-	75% {
-		-ms-transform: scale(0.7) translateY(0);
-		z-index: -1;
-	}
-	100% {
-		-ms-transform: scale(1) translateY(-200%);
-		z-index: -1;
-	}
-}
-
-@-webkit-keyframes cssload-animBefore {
-	0% {
-		-webkit-transform: scale(1) translateY(-200%);
-		z-index: 1;
-	}
-	25% {
-		-webkit-transform: scale(1.3) translateY(0);
-		z-index: 1;
-	}
-	50% {
-		-webkit-transform: scale(1) translateY(200%);
-		z-index: -1;
-	}
-	75% {
-		-webkit-transform: scale(0.7) translateY(0);
-		z-index: -1;
-	}
-	100% {
-		-webkit-transform: scale(1) translateY(-200%);
-		z-index: -1;
-	}
-}
-
-@-moz-keyframes cssload-animBefore {
-	0% {
-		-moz-transform: scale(1) translateY(-200%);
-		z-index: 1;
-	}
-	25% {
-		-moz-transform: scale(1.3) translateY(0);
-		z-index: 1;
-	}
-	50% {
-		-moz-transform: scale(1) translateY(200%);
-		z-index: -1;
-	}
-	75% {
-		-moz-transform: scale(0.7) translateY(0);
-		z-index: -1;
-	}
-	100% {
-		-moz-transform: scale(1) translateY(-200%);
-		z-index: -1;
-	}
-}
-
-@keyframes cssload-animAfter {
-	0% {
-		transform: scale(1) translateY(200%);
-		z-index: -1;
-	}
-	25% {
-		transform: scale(0.7) translateY(0);
-		z-index: -1;
-	}
-	50% {
-		transform: scale(1) translateY(-200%);
-		z-index: 1;
-	}
-	75% {
-		transform: scale(1.3) translateY(0);
-		z-index: 1;
-	}
-	100% {
-		transform: scale(1) translateY(200%);
-		z-index: 1;
-	}
-}
-
-@-o-keyframes cssload-animAfter {
-	0% {
-		-o-transform: scale(1) translateY(200%);
-		z-index: -1;
-	}
-	25% {
-		-o-transform: scale(0.7) translateY(0);
-		z-index: -1;
-	}
-	50% {
-		-o-transform: scale(1) translateY(-200%);
-		z-index: 1;
-	}
-	75% {
-		-o-transform: scale(1.3) translateY(0);
-		z-index: 1;
-	}
-	100% {
-		-o-transform: scale(1) translateY(200%);
-		z-index: 1;
-	}
-}
-
-@-ms-keyframes cssload-animAfter {
-	0% {
-		-ms-transform: scale(1) translateY(200%);
-		z-index: -1;
-	}
-	25% {
-		-ms-transform: scale(0.7) translateY(0);
-		z-index: -1;
-	}
-	50% {
-		-ms-transform: scale(1) translateY(-200%);
-		z-index: 1;
-	}
-	75% {
-		-ms-transform: scale(1.3) translateY(0);
-		z-index: 1;
-	}
-	100% {
-		-ms-transform: scale(1) translateY(200%);
-		z-index: 1;
-	}
-}
-
-@-webkit-keyframes cssload-animAfter {
-	0% {
-		-webkit-transform: scale(1) translateY(200%);
-		z-index: -1;
-	}
-	25% {
-		-webkit-transform: scale(0.7) translateY(0);
-		z-index: -1;
-	}
-	50% {
-		-webkit-transform: scale(1) translateY(-200%);
-		z-index: 1;
-	}
-	75% {
-		-webkit-transform: scale(1.3) translateY(0);
-		z-index: 1;
-	}
-	100% {
-		-webkit-transform: scale(1) translateY(200%);
-		z-index: 1;
-	}
-}
-
-@-moz-keyframes cssload-animAfter {
-	0% {
-		-moz-transform: scale(1) translateY(200%);
-		z-index: -1;
-	}
-	25% {
-		-moz-transform: scale(0.7) translateY(0);
-		z-index: -1;
-	}
-	50% {
-		-moz-transform: scale(1) translateY(-200%);
-		z-index: 1;
-	}
-	75% {
-		-moz-transform: scale(1.3) translateY(0);
-		z-index: 1;
-	}
-	100% {
-		-moz-transform: scale(1) translateY(200%);
-		z-index: 1;
-	}
-}

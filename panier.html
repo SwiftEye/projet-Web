@@ -10,7 +10,6 @@
 	<link rel="icon" type="image/png" href="fav/favicon.png">
   </head>
   <body>
-<section>
 	<div id="header" class="rien">
 		
 		<div id="logo">
@@ -25,7 +24,7 @@
 		</div>
 		
 		<div id="client">
-			<a href="index.html"><img src="images/panier.png" class="client" alt="panier"></a>
+			<a href="panier.html"><img src="images/panier.png" class="client" alt="panier"></a>
 			<a href="login.html"><img src="images/login.png" class="client" alt="login"></a>
 		</div>
 		
@@ -41,45 +40,47 @@
 	</div>
 	
 	<div id="contenu">
-		<CENTER><TABLE width=80%>
-		<TR align="center">
-			<Th></Th>
-			<Th>Libellé</TD>
-			<Th>Disponibilité</TD>
-			<Th>Quantité</Th>
-			<Th>Prix TTC</Th>
+	<form method="post" action="commande.html" class="panier">
+		
+		<TABLE>
+		<TR>
+			<TH></TH>
+			<TH>Libellé</TH>
+			<TH>Disponibilité</TH>
+			<TH>Quantité</TH>
+			<TH>Prix TTC</TH>
 		</TR>
-		<TR align="center" width="100%">
-			<TD width="40%" align="right"><img src="images/produits/fk1.jpg"/></TD>
+		<TR>
+			<TD><img src="images/produits/fk1.jpg" alt="fk1"/></TD>
 			<TD>Zowie FK1</TD>
 			<TD>En Stock</TD>
 			<TD>1</TD>
 			<TD>59,95€</TD>
 		</TR>
-		<TR align="center" width="50%">
-			<TD width="40%" align="right"><img src="images/produits/siberia-v2.jpg"/></TD>
+		<TR>
+			<TD><img src="images/produits/siberia-v2.jpg" alt="siberiv-v2"/></TD>
 			<TD>Siberia V2</TD>
 			<TD>En Stock</TD>
 			<TD>1</TD>
 			<TD>59,95€</TD>
 		</TR>
-		<TR align="center" width="50%">
+		<TR>
 			<TD></TD>
 			<TD></TD>
 			<TD></TD>
 			<TD></TD>
 			<TD></TD>
 		</TR>
-		<TR align="center" width="50%">
+		<TR>
 			<TD></TD>
 			<TD></TD>
 			<TD></TD>
 			<TD> TOTAL :</TD>
 			<TD>119,95€</TD>
 		</TR>
-		</TABLE></CENTER> 
+		</TABLE>
 		
-		<form method="post" action="commande.html" class="commander">
+		
 			<button type="submit">Commander</button>
 		</form>
 		
@@ -107,6 +108,5 @@
 			</div>
 
 	</footer>
-</section>
 
 </body>

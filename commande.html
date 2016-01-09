@@ -10,7 +10,7 @@
 	<link rel="icon" type="image/png" href="fav/favicon.png">
   </head>
   <body>
-<section>
+
 	<div id="header" class="rien">
 		
 		<div id="logo">
@@ -41,31 +41,48 @@
 	</div>
 	
 	<div id="contenu">
-		<form method="post" action="commande.html" class="commander">
+		<form method="post" action="commande-validee.html" class="commander">
 			<p>
-				<label for="text">Nom :</label>
+				<label for="nom">Nom :</label>
 				<input type="text" name="nom" id="nom" placeholder="Nom">
 			</p>
 			<p>
-				<label for="text">Prenom :</label>
+				<label for="prenom">Prenom :</label>
 				<input type="text" name="prenom" id="prenom" placeholder="prenom">
 			</p>
 			<p>
-				<label for="text">Adresse :</label>
+				<label for="adresse">Adresse de livraison :</label>
 				<input type="text" name="adresse" id="adresse" placeholder="adresse">
 			</p>
 			<p>
-				<label for="text">Code postal :</label>
+				<label for="cp">Code postal :</label>
 				<input type="text" name="cp" id="cp" placeholder="Code postal">
 			</p>
 			<p>
-				<label for="text">Ville :</label>
-				<input type="text" name="Ville" id="Ville" placeholder="Ville">
+				<label for="ville">Ville :</label>
+				<input type="text" name="ville" id="ville" placeholder="Ville">
 			</p>
 			<p>
 				<label for="tel">Télephone :</label>
 				<input type="tel" name="tel" id="tel" placeholder="Téléphone">
 			</p>
+			
+			<p>
+				<label for="numcb">Numero de carte :</label>
+				<input type="text" name="numcb" id="numcb" placeholder="4978 4558 4231 4567">
+			</p>
+			
+			<p>
+				<label for="dateexp">Date d'expiration :</label>
+				<input type="text" name="dateexp" id="dateexp" placeholder="01/2017">
+			</p>
+			
+			<p>
+				<label for="cryp">Cryptogramme visuel :</label>
+				<input type="text" name="cryp" id="cryp" placeholder="999">
+			</p>
+			
+			<button type="submit">Commander</button>
 		</form>
 	</div>
 	
@@ -90,6 +107,6 @@
 			</div>
 
 	</footer>
-</section>
+
 
 </body>
